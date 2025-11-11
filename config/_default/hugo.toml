@@ -1,0 +1,9 @@
+################################### Default Configuration ############################
+baseurl = "/"
+title = "Vex | hugo landing page template"
+theme = "vex-hugo"
+# post excert
+summarylength = "20"
+# google analytics
+# disable language
+disableLanguages = [] # disable language from here

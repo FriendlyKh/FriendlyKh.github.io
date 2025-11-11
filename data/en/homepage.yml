@@ -1,0 +1,98 @@
+############################# banner ############################
+banner:
+  enable: true
+  title: "Nơi đem đến cho bạn những nỗi nhớ, đau khổ và kí úc đẹp nhất cùng song hành"
+  content: "Sản phẩm của chúng tôi được thiết kế để mang lại trải nghiệm chân thật nhất cho người dùng. Mỗi khi nhìn vào sản phẩm, bạn sẽ cảm nhận được rõ nét những quá khú đau thương nhưng đầy ý nghĩa."
+  image: "images/banner.png"
+  button:
+    enable: true
+    label: "Browse All Products"
+    link: "products/"
+
+############################# Feature ############################
+features:
+  enable: true
+  title: "Về chúng tôi"
+  image: "images/showcase-lightstick.jfif"
+
+  # feature at the left of the image
+  right_side:
+    # feature item loop
+    - title: "Sứ mệnh"
+      icon: "tf-ion-ios-alarm-outline"
+      content: "Mỗi sản phẩm được bán ra sẽ được chúng tôi trích quỹ tái hòa nhập cộng đồng dành cho những người ở dưới hang quá lâu,để họ có thể hòa nhập lại với xã hội một cách dễ dàng hơn."
+  left_side:
+      # feature item loop
+    - title: "Lịch sử"
+      icon: "tf-ion-ios-cart-outline"
+      content: "Được thành lập bởi 4 người bạn lớp TNT2 Trường Đại Học KHTN - ĐHQG TP.HCM với mong muốn mang lại những sản phẩm ý nghĩa, thiết thực nhất dành cho cộng đồng"
+  
+############################# promo ############################
+promo:
+  enable: true
+  image: "images/mu-shirt-24-25.jpg"
+  title: "Sản phẩm trending tuần này"
+  content:
+    "Lượng mua hiện tại của sản phẩm Áo MU MUÔN NĂM đã cán mộc MỘT TRĂM NGHÌN sản phẩm, trở thành mẫu áo đắt hàng nhất từ trước đến nay của hãng!!
+    <br><br>
+    Xin chân thành cảm ơn khách hàng đã ủng hộ và hãy đón chờ những sản phẩm cực kì peak khác của chúng tôi nhé :))"
+
+############################# About Product #######################
+about_product:
+  enable: true
+  title: "Những lý do nên chọn sản phẩm của chúng tôi"
+  items:
+    # about product item loop
+    - image: "images/showcase/showcase-1.png"
+      title: "Chất lượng miễn chê"
+      content:
+        "Từng sản phẩm đều được nghiên cứu kĩ lưỡng, đảm bảo chất liệu, cảm giác sử dụng và đặc biệt là trải nghiệm của người dùng. Chúng tôi luôn đặt khách hàng lên hàng đầu. Chất lượng sản phẩm là uy tín của chúng tôi!"
+      button:
+        enable: false
+        label: "Check Features"
+        link: "#/"
+
+    # about product item loop
+    - image: "images/showcase/showcase-2.png"
+      title: "Sản phẩm đa dạng"
+      content:
+        "Tất cả những vật phẩm mang tính kỉ niệm, hoài niệm đều được chúng tôi nghiên cứu và sản xuất. Từ áo quần, mũ nón, đến những vật dụng trang trí của các meme, KOL từ quá khứ đến hiện tại đều có thể tìm thấy tại cửa hàng của chúng tôi."
+      button:
+        enable: false
+        label: "Check Features"
+        link: "#/"
+
+#################################### Products ########################
+products:
+  enable: true
+  title: "All Products"
+
+################################## Subscription ###################
+subscription:
+  enable: true
+  bg_image: "images/call-to-action.jpg"
+  title: "Muốn theo dõi bước tiến của chúng tôi?"
+  content: "Tất cả những sản phẩm, hướng đi, kế hoạch mới mà chúng tôi muốn bạn biết sớm nhất sẽ được gửi đến bạn thông qua email mà bạn điền vào đây."
+  placeholder: "email của bạn "
+
+############################## Testimonial ##########################
+testimonial:
+  enable: true
+  title: "Review sản phẩm"
+  testimonial_item:
+    # testimonial item loop
+    - name: "Mark Zuckerberg"
+      designation: "CEO of Facebook"
+      image: "images/avater-1.png"
+      content: "DXH đã chứng tỏ được sự chuyên nghiệp và khả năng thấu hiểu thị hiếu cộng đồng mạng Việt Nam một cách hoàn hảo. Tốc độ nắm bắt drama (Kẹo Kera), tinh thần meme ('tận cùng nỗi đau' của Fan T1) và sự hài hước trong ngôn ngữ là không thể chê vào đâu được. Dịch vụ không chỉ giải quyết yêu cầu mà còn nâng tầm nó lên thành những đoạn nội dung huyền thoại đầy tính giải trí. Tôi hoàn toàn tin tưởng và sẽ tiếp tục 'xin vía' sự sáng tạo từ đội ngũ này!"
+
+    # testimonial item loop
+    - name: "Huang Loc"
+      designation: "CEO of Slipper Company"
+      image: "images/avater-2.png"
+      content: "Với vai trò CEO của thương hiệu Dép Lào, tôi hoàn toàn hài lòng với hiệu quả hợp tác từ Công ty/Nền tảng này. Họ đã biến sản phẩm bình dân của chúng tôi thành huyền thoại với meme 'đáy xã hội' một cách cực kỳ thông minh. Khả năng thấu hiểu thương hiệu và lồng ghép ngôn ngữ viral như 'Vũ khí Tối Thượng' đã giúp Dép Lào 36 trở thành 'The Boss' trong lòng người tiêu dùng."
+    # testimonial item loop
+    - name: "Duck Khoi"
+      designation: "CEO of DuckDuck"
+      image: "images/avater-3.png"
+      content: "Từ góc độ CEO của DuckDuck, tôi vô cùng ấn tượng với sự linh hoạt và khả năng biến hóa ý tưởng của Công ty đối tác này. Họ đã giúp những chú vịt của chúng tôi trở thành 'Vũ khí Tối Thượng' trên mạng xã hội, tránh được mọi 'drama' không cần thiết. Mọi nội dung đều được làm rất 'chất' và lan tỏa, giúp chúng tôi 'xin vía' sự chú ý của giới trẻ. Đặc biệt, cách lồng ghép meme tinh tế, giúp sản phẩm của chúng tôi không bị xếp vào 'đáy xã hội' mà luôn giữ được vị thế 'The Boss' đầy độc đáo. 'Đã làm là phải chất,' và họ đã chứng minh điều đó!"
